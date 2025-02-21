@@ -73,7 +73,7 @@ namespace L01_2022ML601.Controllers
 
             return Ok(clientes);
         }
-        //Agregar cliente
+        //Agregar un cliente
         [HttpPost]
         [Route("Add")]
         public IActionResult AgregarCliente([FromBody] Clientes cliente)
