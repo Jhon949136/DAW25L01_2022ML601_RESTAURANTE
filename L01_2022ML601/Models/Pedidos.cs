@@ -10,6 +10,6 @@ namespace L01_2022ML601.Models
         public int clienteId { get; set; }
         public int platoId { get; set; }
         public int cantidad { get; set; }
-        public double precio { get; set; }
+        public decimal precio { get; set; }
     }
 }

@@ -7,6 +7,6 @@ namespace L01_2022ML601.Models
         [Key]
         public int platoId { get; set; }
         public string nombrePlato { get; set; }
-        public double precio { get; set; }
+        public decimal precio { get; set; }
     }
 }
